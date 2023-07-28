@@ -1,11 +1,12 @@
 import {
   ColorTags,
   GradientText,
-  Project,
   Section,
   Tags,
 } from 'astro-boilerplate-components';
 import { Fragment } from 'react';
+
+import ProjectM from './ProjectM';
 
 const ProjectList = () => (
   <Fragment>
@@ -17,7 +18,7 @@ const ProjectList = () => (
       }
     >
       <div className="flex flex-col gap-6">
-        <Project
+        <ProjectM
           name="YelpCamp"
           description="YelpCamp is a full-stack responsive website. Users can create and review campgrounds with geocoding. In order to review or create a campground, you must have an account. Registered users can create and review campgrounds with
 geocoding."
@@ -33,16 +34,17 @@ geocoding."
               <Tags color={ColorTags.FUCHSIA}>Node.js</Tags>
               <Tags color={ColorTags.LIME}>Express.js</Tags>
               <Tags color={ColorTags.SKY}>MongoDB</Tags>
-              <Tags color={ColorTags.YELLOW}>PassportJS </Tags>
+              <Tags color={ColorTags.TEAL}>Responsive Web Design</Tags>
               <Tags color={ColorTags.ROSE}>Bootstrap</Tags>
               <Tags color={ColorTags.PURPLE}>REST</Tags>
+              <Tags color={ColorTags.YELLOW}>PassportJS </Tags>
               <Tags color={ColorTags.NEUTRAL}>HTML5</Tags>
               <Tags color={ColorTags.GREEN}>CSS3</Tags>
             </>
           }
         />
 
-        <Project
+        <ProjectM
           name="Crwn-clothing"
           description="Crwn-clothing is an E-commerce application similar to Shopify. Users can register or login (also Google sign-in). Clients can add/remove products to cart and make test payments. All features with a nice user-friendly design and feedback.
 "
@@ -76,7 +78,7 @@ geocoding."
       }
     >
       <div className="flex flex-col gap-6">
-        <Project
+        <ProjectM
           name="Artificial hand"
           description="Gripper with accurate control system and touch sensors. Hand motion control.
 The project included all stages: design, fabrication, programming."
@@ -95,7 +97,7 @@ The project included all stages: design, fabrication, programming."
             </>
           }
         />
-        <Project
+        <ProjectM
           name="Archy"
           description="A remote-controlled six-legged robot with many adjustment functions and types of movement.
 The project included all stages: design, fabrication, programming."
