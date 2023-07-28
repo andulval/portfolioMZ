@@ -13,10 +13,10 @@ declare type IProjectProps = {
   moreInfoLinkDesc: string;
   category: ReactNode;
 };
-declare const ProjectM: (props: IProjectProps) => JSX.Element;
+// declare const ProjectM: (props: IProjectProps) => JSX.Element;
 // export { ProjectM };
 
-ProjectM = (props) =>
+const ProjectM = (props: IProjectProps): JSX.Element =>
   jsxs('div', {
     className:
       'flex flex-col items-center gap-x-8 rounded-md bg-slate-800 p-3 md:flex-row',
