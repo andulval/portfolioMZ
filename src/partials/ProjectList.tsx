@@ -6,7 +6,7 @@ import {
 } from 'astro-boilerplate-components';
 import { Fragment } from 'react';
 
-import ProjectM from './ProjectM';
+import ProjectM from './ProjectM.d';
 
 const ProjectList = () => (
   <Fragment>
