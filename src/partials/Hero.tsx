@@ -27,7 +27,7 @@ const Hero = () => (
           Responsible for{' '}
           <span className="text-cyan-400">project execution</span> and{' '}
           <span className="text-cyan-400">team management</span> for{' '}
-          <span className="text-cyan-400">global</span> clients.
+          <span className="text-cyan-400">global clients</span>.
           <br />
           Constantly looking for new development opportunities.
           {/* <a className="text-cyan-400 hover:underline" href="/">
