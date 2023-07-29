@@ -22,7 +22,7 @@ const Hero = () => (
             4 years of experience
           </span>{' '}
           as a member of <span className="text-cyan-400">multinational</span>{' '}
-          mechanical design <span className="text-cyan-400">teams</span>.
+          design <span className="text-cyan-400">teams</span>.
           <br />
           Responsible for{' '}
           <span className="text-cyan-400">project execution</span> and{' '}
