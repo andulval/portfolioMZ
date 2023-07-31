@@ -47,7 +47,7 @@ const ProjectM = (props: IProjectProps): JSX.Element =>
                 }),
               }),
               jsx('div', {
-                className: 'ml-3 flex gap-2',
+                className: 'ml-3 flex gap-2 flex-col md:flex-row',
                 children: props.category,
               }),
             ],
