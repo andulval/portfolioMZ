@@ -19,6 +19,29 @@ const ProjectList = () => (
     >
       <div className="flex flex-col gap-6">
         <ProjectM
+          name="Crwn-clothing"
+          description="Crwn-clothing is an E-commerce application similar to Shopify. Users can register or login (also Google sign-in). Clients can add/remove products to cart and make test payments. All features with a nice user-friendly design and feedback.
+"
+          link="https://master--chipper-cassata-41e430.netlify.app/"
+          moreInfoLink="https://github.com/andulval/crwn-clothing-v2"
+          moreInfoLinkDesc="See more"
+          img={{
+            src: '/assets/images/crw-clothing-img.png',
+            alt: 'Project crwn-clothing',
+          }}
+          category={
+            <>
+              <Tags color={ColorTags.FUCHSIA}>React.js (Hooks & Router)</Tags>
+              <Tags color={ColorTags.LIME}>Redux</Tags>
+              <Tags color={ColorTags.YELLOW}>Firebase </Tags>
+              <Tags color={ColorTags.ROSE}>Stripe API</Tags>
+              <Tags color={ColorTags.PURPLE}>Context API</Tags>
+              <Tags color={ColorTags.NEUTRAL}>Styled-Components</Tags>
+              <Tags color={ColorTags.EMERALD}>Sass</Tags>
+            </>
+          }
+        />
+        <ProjectM
           name="YelpCamp"
           description="YelpCamp is a full-stack responsive website. Users can create and review campgrounds with geocoding. In order to review or create a campground, you must have an account. Registered users can create and review campgrounds with
 geocoding."
@@ -45,25 +68,25 @@ geocoding."
         />
 
         <ProjectM
-          name="Crwn-clothing"
-          description="Crwn-clothing is an E-commerce application similar to Shopify. Users can register or login (also Google sign-in). Clients can add/remove products to cart and make test payments. All features with a nice user-friendly design and feedback.
+          name="Movie Search"
+          description="Movie Search is a mobile application that connects to a movieDB to search for any movie that matches your query. User can add movie to list of favorites movies.
 "
-          link="https://master--chipper-cassata-41e430.netlify.app/"
-          moreInfoLink="https://github.com/andulval/crwn-clothing-v2"
+          link="https://github.com/andulval/ReactNativeRecruitmentTask/blob/main/README.md"
+          moreInfoLink="https://github.com/andulval/ReactNativeRecruitmentTask/blob/main/README.md"
           moreInfoLinkDesc="See more"
           img={{
-            src: '/assets/images/crw-clothing-img.png',
-            alt: 'Project crwn-clothing',
+            src: '/assets/images/homeMovieSearch.png',
+            alt: 'Project Movie Search',
           }}
           category={
             <>
-              <Tags color={ColorTags.FUCHSIA}>React.js (Hooks & Router)</Tags>
-              <Tags color={ColorTags.LIME}>Redux</Tags>
-              <Tags color={ColorTags.YELLOW}>Firebase </Tags>
-              <Tags color={ColorTags.ROSE}>Stripe API</Tags>
-              <Tags color={ColorTags.PURPLE}>Context API</Tags>
-              <Tags color={ColorTags.NEUTRAL}>Styled-Components</Tags>
-              <Tags color={ColorTags.EMERALD}>Sass</Tags>
+              <Tags color={ColorTags.EMERALD}>React-native</Tags>
+              <Tags color={ColorTags.ROSE}>React-navigation</Tags>
+              <Tags color={ColorTags.YELLOW}>Typescript</Tags>
+              <Tags color={ColorTags.LIME}>Redux RTK</Tags>
+              <Tags color={ColorTags.PURPLE}> RTK Query</Tags>
+              <Tags color={ColorTags.FUCHSIA}>MovieDB API</Tags>
+              <Tags color={ColorTags.NEUTRAL}>ESLint & Prettier</Tags>
             </>
           }
         />
