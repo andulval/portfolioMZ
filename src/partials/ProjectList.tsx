@@ -23,7 +23,7 @@ const ProjectList = () => (
           description="E-commerce application for the automotive industry based on a proprietary CMS."
           link="https://sklep.ack.com.pl/"
           moreInfoLink="https://sklep.ack.com.pl/"
-          moreInfoLinkDesc=""
+          moreInfoLinkDesc="See more"
           img={{
             src: '/assets/images/ack.png',
             alt: 'Proffesional website e-commerce - ACK',
@@ -43,7 +43,7 @@ const ProjectList = () => (
           description="E-commerce application for the automotive industry based on a proprietary CMS."
           link="https://www.expertparts.pl/"
           moreInfoLink="https://www.expertparts.pl/"
-          moreInfoLinkDesc=""
+          moreInfoLinkDesc="See more"
           img={{
             src: '/assets/images/moto exp.png',
             alt: 'Proffesional website e-commerce - moto expert',
