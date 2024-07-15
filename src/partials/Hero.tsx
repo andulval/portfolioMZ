@@ -15,19 +15,21 @@ const Hero = () => (
       }
       description={
         <>
-          <span className="text-cyan-400">Junior Web Developer</span> with{' '}
-          Master of Science in Automation & Robotics.
-          <br />
-          More than <span className="text-cyan-400">
-            4 years of experience
+          Over{' '}
+          <span className="text-cyan-400">
+            8 months of professional programming experience in e-commerce
           </span>{' '}
-          as a member of <span className="text-cyan-400">multinational</span>{' '}
-          design <span className="text-cyan-400">teams</span>.
+          and <span className="text-cyan-400">4 years of experience</span> as a
+          member of <span className="text-cyan-400">multinational teams</span>.
           <br />
           Responsible for{' '}
           <span className="text-cyan-400">project execution</span> and{' '}
           <span className="text-cyan-400">team management</span> for{' '}
           <span className="text-cyan-400">global clients</span>.
+          <br />
+          <span className="text-cyan-400">Master of Science</span> in{' '}
+          <span className="text-cyan-400">Automation and Robotics</span>{' '}
+          conferred.
           <br />
           Constantly looking for new development opportunities.
           {/* <a className="text-cyan-400 hover:underline" href="/">

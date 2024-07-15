@@ -13,6 +13,57 @@ const ProjectList = () => (
     <Section
       title={
         <>
+          Professional <GradientText>Experience</GradientText>
+        </>
+      }
+    >
+      <div className="flex flex-col gap-6">
+        <ProjectM
+          name="ACK"
+          description="E-commerce application for the automotive industry based on a proprietary CMS."
+          link="https://sklep.ack.com.pl/"
+          moreInfoLink="https://sklep.ack.com.pl/"
+          moreInfoLinkDesc=""
+          img={{
+            src: '/assets/images/ack.png',
+            alt: 'Proffesional website e-commerce - ACK',
+          }}
+          category={
+            <>
+              <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
+              <Tags color={ColorTags.ROSE}>C#</Tags>
+              <Tags color={ColorTags.PURPLE}>Bootstrap</Tags>
+              <Tags color={ColorTags.LIME}>Sass</Tags>
+              <Tags color={ColorTags.EMERALD}>HTML</Tags>
+            </>
+          }
+        />
+        <ProjectM
+          name="Moto-expert"
+          description="E-commerce application for the automotive industry based on a proprietary CMS."
+          link="https://www.expertparts.pl/"
+          moreInfoLink="https://www.expertparts.pl/"
+          moreInfoLinkDesc=""
+          img={{
+            src: '/assets/images/moto exp.png',
+            alt: 'Proffesional website e-commerce - moto expert',
+          }}
+          category={
+            <>
+              <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
+              <Tags color={ColorTags.ROSE}>C#</Tags>
+              <Tags color={ColorTags.PURPLE}>Bootstrap</Tags>
+              <Tags color={ColorTags.LIME}>Sass</Tags>
+              <Tags color={ColorTags.EMERALD}>HTML</Tags>
+            </>
+          }
+        />
+      </div>
+    </Section>
+
+    <Section
+      title={
+        <>
           Recent <GradientText>Projects</GradientText>
         </>
       }
