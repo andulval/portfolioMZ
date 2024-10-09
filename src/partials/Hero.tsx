@@ -15,9 +15,9 @@ const Hero = () => (
       }
       description={
         <>
-          Over{' '}
+          Almost{' '}
           <span className="text-cyan-400">
-            8 months of professional programming experience in e-commerce
+            one year of professional programming experience in e-commerce Web development
           </span>{' '}
           and <span className="text-cyan-400">4 years of experience</span> as a
           member of <span className="text-cyan-400">multinational teams</span>.
@@ -31,7 +31,7 @@ const Hero = () => (
           <span className="text-cyan-400">Automation and Robotics</span>{' '}
           conferred.
           <br />
-          Constantly looking for new development opportunities.
+          Eager to embrace new development opportunities.
           {/* <a className="text-cyan-400 hover:underline" href="/">
             consectetur
           </a>{' '} */}

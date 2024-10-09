@@ -18,15 +18,15 @@ const ProjectList = () => (
       }
     >
       <div className="flex flex-col gap-6">
-        <ProjectM
-          name="ACK"
+      <ProjectM
+          name="Motohurt"
           description="E-commerce application for the automotive industry based on a proprietary CMS."
-          link="https://sklep.ack.com.pl/"
-          moreInfoLink="https://sklep.ack.com.pl/"
+          link="https://motohurt.org/new/"
+          moreInfoLink="https://motohurt.org/new/"
           moreInfoLinkDesc="See more"
           img={{
-            src: '/assets/images/ack.png',
-            alt: 'Proffesional website e-commerce - ACK',
+            src: '/assets/images/motohur smt.png',
+            alt: 'Proffesional e-commerce website - motohurt',
           }}
           category={
             <>
@@ -39,14 +39,34 @@ const ProjectList = () => (
           }
         />
         <ProjectM
-          name="Moto-expert"
+          name="ACK"
           description="E-commerce application for the automotive industry based on a proprietary CMS."
-          link="https://www.expertparts.pl/"
-          moreInfoLink="https://www.expertparts.pl/"
+          link="https://sklep.ack.com.pl/"
+          moreInfoLink="https://sklep.ack.com.pl/"
           moreInfoLinkDesc="See more"
           img={{
-            src: '/assets/images/moto exp.png',
-            alt: 'Proffesional website e-commerce - moto expert',
+            src: '/assets/images/ack.png',
+            alt: 'Proffesional e-commerce  website - ACK',
+          }}
+          category={
+            <>
+              <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
+              <Tags color={ColorTags.ROSE}>C#</Tags>
+              <Tags color={ColorTags.PURPLE}>Bootstrap</Tags>
+              <Tags color={ColorTags.LIME}>Sass</Tags>
+              <Tags color={ColorTags.EMERALD}>HTML</Tags>
+            </>
+          }
+        />
+        <ProjectM
+          name="GKtrading"
+          description="E-commerce application for the automotive industry based on a proprietary CMS."
+          link="https://sklep.gktrading.pl/"
+          moreInfoLink="https://sklep.gktrading.pl/"
+          moreInfoLinkDesc="See more"
+          img={{
+            src: '/assets/images/gktrad sm.png',
+            alt: 'Proffesional e-commerce website - GKtrading',
           }}
           category={
             <>
