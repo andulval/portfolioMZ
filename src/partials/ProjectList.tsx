@@ -89,6 +89,26 @@ const ProjectList = () => (
       }
     >
       <div className="flex flex-col gap-6">
+      <ProjectM
+          name="Nautours API"
+          description="The Nautours API is a RESTful service designed with predictable, resource-oriented URLs, supporting JSON for requests and responses. It provides robust query options, including sorting, field limiting, pagination, and data aggregation, as well as advanced filtering like geo-radius searches using GeoJSON. Standard HTTP response codes, authentication, and HTTP methods ensure secure and intuitive interactions."
+          link="https://natorusapi.netlify.app/api/v1/tours?difficulty=easy&price[lt]=1500&sort=price"
+          moreInfoLink="https://github.com/andulval/nautorus"
+          moreInfoLinkDesc="See more"
+          img={{
+            src: '/assets/images/restfulAPi.png',
+            alt: 'Project Nautorus API',
+          }}
+          category={
+            <>
+              <Tags color={ColorTags.FUCHSIA}>NodeJS</Tags>
+              <Tags color={ColorTags.LIME}>ExpressJS</Tags>
+              <Tags color={ColorTags.YELLOW}>MongoDB </Tags>
+              <Tags color={ColorTags.ROSE}>Javascript</Tags>
+              <Tags color={ColorTags.EMERALD}>RESTful</Tags>
+            </>
+          }
+        />
         <ProjectM
           name="Crwn-clothing"
           description="Crwn-clothing is an E-commerce application similar to Shopify. Users can register or login (also Google sign-in). Clients can add/remove products to cart and make test payments. All features with a nice user-friendly design and feedback.
