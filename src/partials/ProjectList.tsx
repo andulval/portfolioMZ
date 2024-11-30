@@ -21,8 +21,8 @@ const ProjectList = () => (
       <ProjectM
           name="Motohurt"
           description="E-commerce application for the automotive industry based on a proprietary CMS."
-          link="https://motohurt.org/new/"
-          moreInfoLink="https://motohurt.org/new/"
+          link="https://motohurt.org/"
+          moreInfoLink="https://motohurt.org/"
           moreInfoLinkDesc="See more"
           img={{
             src: '/assets/images/motohur smt.png',

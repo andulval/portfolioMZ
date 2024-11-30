@@ -15,24 +15,26 @@ const Hero = () => (
       }
       description={
         <>
-          Almost{' '}
-          <span className="text-cyan-400">
-            one year of professional programming experience in e-commerce Web development
+        <span style={{ textAlign: 'justify', display: 'block' }}>
+        Web Developer with professional experience in e-commerce development, specializing in building and enhancing custom applications. Proficient in server setup and backend integrations, with experience across the entire software development lifecycle. Previously spent four years as a Project Engineer, leading and contributing to large-scale projects for global clients. Now committed to leveraging development skills to deliver innovative web solutions.
+        </span>
+          {/* <span className="text-cyan-400N">
+          Web Developer with professional experience in e-commerce development, specializing in building and enhancing custom applications.
           </span>{' '}
-          and <span className="text-cyan-400">4 years of experience</span> as a
-          member of <span className="text-cyan-400">multinational teams</span>.
+          and <span className="text-cyan-400N">4 years of experience</span> as a
+          member of <span className="text-cyan-400N">multinational teams</span>.
           <br />
           Responsible for{' '}
-          <span className="text-cyan-400">project execution</span> and{' '}
-          <span className="text-cyan-400">team management</span> for{' '}
-          <span className="text-cyan-400">global clients</span>.
+          <span className="text-cyan-400N">project execution</span> and{' '}
+          <span className="text-cyan-400N">team management</span> for{' '}
+          <span className="text-cyan-400N">global clients</span>.
           <br />
-          <span className="text-cyan-400">Master of Science</span> in{' '}
-          <span className="text-cyan-400">Automation and Robotics</span>{' '}
+          <span className="text-cyan-400N">Master of Science</span> in{' '}
+          <span className="text-cyan-400N">Automation and Robotics</span>{' '}
           conferred.
           <br />
-          Eager to embrace new development opportunities.
-          {/* <a className="text-cyan-400 hover:underline" href="/">
+          Eager to embrace new development opportunities. */}
+          {/* <a className="text-cyan-400N hover:underline" href="/">
             consectetur
           </a>{' '} */}
         </>
