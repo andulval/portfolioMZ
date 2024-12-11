@@ -31,7 +31,9 @@ const ProjectList = () => (
           category={
             <>
               <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
+              <Tags color={ColorTags.ZINC}>TypeScript</Tags>
               <Tags color={ColorTags.ROSE}>C#</Tags>
+              <Tags color={ColorTags.SKY}>SQL</Tags>
               <Tags color={ColorTags.PURPLE}>Bootstrap</Tags>
               <Tags color={ColorTags.LIME}>Sass</Tags>
               <Tags color={ColorTags.EMERALD}>HTML</Tags>
@@ -51,7 +53,9 @@ const ProjectList = () => (
           category={
             <>
               <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
+              <Tags color={ColorTags.ZINC}>TypeScript</Tags>
               <Tags color={ColorTags.ROSE}>C#</Tags>
+              <Tags color={ColorTags.SKY}>SQL</Tags>
               <Tags color={ColorTags.PURPLE}>Bootstrap</Tags>
               <Tags color={ColorTags.LIME}>Sass</Tags>
               <Tags color={ColorTags.EMERALD}>HTML</Tags>

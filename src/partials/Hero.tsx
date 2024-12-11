@@ -1,8 +1,10 @@
 import {
+  ColorTags,
   GradientText,
   HeroAvatar,
   HeroSocial,
   Section,
+  Tags,
 } from 'astro-boilerplate-components';
 
 const Hero = () => (
@@ -16,7 +18,9 @@ const Hero = () => (
       description={
         <>
         <span style={{ textAlign: 'justify', display: 'block' }}>
-        Web Developer with professional experience in e-commerce development, specializing in building and enhancing custom applications. Proficient in server setup and backend integrations, with experience across the entire software development lifecycle. Previously spent four years as a Project Engineer, leading and contributing to large-scale projects for global clients. Now committed to leveraging development skills to deliver innovative web solutions.
+        Web Developer with professional experience in e-commerce development, specializing in building and enhancing custom applications.
+        Skilled in server setup and backend integrations, with hands-on experience across the entire software development lifecycle.
+        Proven track record of contributing to and leading large-scale projects in a multinational environment for global clients.
         </span>
           {/* <span className="text-cyan-400N">
           Web Developer with professional experience in e-commerce development, specializing in building and enhancing custom applications.
@@ -39,14 +43,15 @@ const Hero = () => (
           </a>{' '} */}
         </>
       }
-      avatar={
-        <img
-          className="h-80 w-64 rounded-3xl drop-shadow-[0_10px_10px_#02eeff38]"
-          src="/assets/images/Michal_small.jpg"
-          alt="Avatar image"
-          loading="lazy"
-        />
-      }
+      
+      // avatar={
+      //   <img
+      //     className="h-80 w-64 rounded-3xl drop-shadow-[0_10px_10px_#02eeff38]"
+      //     src="/assets/images/Michal_small.jpg"
+      //     alt="Avatar image"
+      //     loading="lazy"
+      //   />
+      // }
       socialButtons={
         <>
           <a href="https://www.linkedin.com/in/michal-zadlo">
@@ -68,8 +73,34 @@ const Hero = () => (
             />
           </a>
         </>
-      }
+        }
     />
+        <div style={{display: 'flex', flexDirection: 'row', flexWrap: 'wrap', gap: '10px', marginTop: '20px'}}>
+        <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
+        <Tags color={ColorTags.ZINC}>TypeScript</Tags>
+        <Tags color={ColorTags.ROSE}>C#</Tags>
+        <Tags color={ColorTags.SKY}>SQL</Tags>
+        <Tags color={ColorTags.PURPLE}>Bootstrap</Tags>
+        <Tags color={ColorTags.LIME}>Sass</Tags>
+        <Tags color={ColorTags.AMBER}>HTML</Tags>
+        <Tags color={ColorTags.SLATE}>NodeJS</Tags>
+        <Tags color={ColorTags.SKY}>ExpressJS</Tags>
+        <Tags color={ColorTags.GREEN}>MongoDB </Tags>
+        <Tags color={ColorTags.RED}>RESTful</Tags>
+        <Tags color={ColorTags.FUCHSIA}>React.js (Hooks & Router)</Tags>
+        <Tags color={ColorTags.STONE}>Redux</Tags>
+        <Tags color={ColorTags.ORANGE}>Firebase </Tags>
+        <Tags color={ColorTags.TEAL}>Stripe API</Tags>
+        <Tags color={ColorTags.CYAN}>Context API</Tags>
+        <Tags color={ColorTags.INDIGO}>Styled-Components</Tags>
+        <Tags color={ColorTags.VIOLET}>Sass</Tags>
+        <Tags color={ColorTags.PINK}>React-native</Tags>
+        <Tags color={ColorTags.SLATE}>React-navigation</Tags>
+        <Tags color={ColorTags.GREEN}>Redux RTK</Tags>
+        <Tags color={ColorTags.ROSE}> RTK Query</Tags>
+        <Tags color={ColorTags.ORANGE}>MovieDB API</Tags>
+        <Tags color={ColorTags.SKY}>ESLint & Prettier</Tags>
+        </div>
   </Section>
 );
 
